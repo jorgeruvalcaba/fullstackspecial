@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Color Guessing Game</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var colors = ["blue", "cyan", "gold", "gray", "green", "magenta", "orange", "red", "white", "yellow"];
+
+    var guess_color = prompt("I am thinking of one of these colors:\n\nblue, cyan, gold, gray, green, magenta, orange, red, white, yellow\n\nWhat color am I thinking of?");
+
+    var item = colors[Math.floor(Math.random()*colors.length)];
+    console.log(item);
+
+    function do_game() {
+      if(colors.indexOf(guess_color) === -1) {
+        alert("Sorry, I don't recognize your color.\n\nPlease try again.");
+      }
+    }
+
+    do_game();
+    </script>
+  </body>
+</html>
