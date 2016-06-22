@@ -42,7 +42,9 @@
           document.getElementById("leftSide").appendChild(sonrisa);
 
           var leftSideImages = theLeftSide.cloneNode(true);
+          leftSideImages.removeChild(leftSideImages.lastChild);
           document.getElementById("rightSide").appendChild(leftSideImages);
+
         }
       }
     </script>
