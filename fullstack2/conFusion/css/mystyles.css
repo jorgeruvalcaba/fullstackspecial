@@ -29,7 +29,7 @@ address {
     color:#0f0f0f;
 }
 
-body{
+body {
     padding:50px 0px 0px 0px;
     z-index:0;
 }
@@ -60,4 +60,21 @@ body{
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     color:#000000;
+}
+
+#remember {
+  color: #FFF;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
 }
