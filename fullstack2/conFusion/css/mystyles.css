@@ -89,3 +89,9 @@ body {
 .affix {
   top: 100px;
 }
+
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
